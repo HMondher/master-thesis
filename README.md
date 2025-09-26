@@ -7,9 +7,9 @@ This code package supports the Master's thesis:
 
 ### Overview
 This repository contains the complete and authentic code implementation for the Master's thesis " Benchmarking Time Series Database On Aerospace Data Streams ".
-The code package generates all datasets, benchmark results, and visualizations presented in the thesis, ensuring full reproducibility and academic integrity.
+The code package generates all datasets, benchmark results, and visualisations presented in the thesis, ensuring full reproducibility and academic integrity.
 
-### 🔧 Installation and Setup
+###  Installation and Setup
 
 #### Prerequisites
 - Python 3.8 or higher
@@ -109,7 +109,7 @@ python foxbench_execution.py
 **Output Files**:
 - `foxbench_tsdb_results.json` - Complete benchmark results and analysis
 - `foxbench_tsdb_results_table.csv` - Performance matrix (FoxBench Table 6 style)
-- `foxbench_tsdb_analysis.png` - Comprehensive visualization dashboard
+- `foxbench_tsdb_analysis.png` - Comprehensive visualisation dashboard
 
 #### 3. `results_figures.py` - Thesis Figure Generation
 **Purpose**: Generate exact figures 4.1-4.4 presented in thesis Chapter 4 with precise data values
@@ -138,7 +138,7 @@ python foxbench_execution.py
 **Key Features**:
 - **Professional Formatting**: LaTeX-compatible fonts and high-resolution output (300 DPI)
 - **Exact Data Values**: Matches thesis tables and results precisely
-- **Publication Quality**: Optimized for academic papers and presentations
+- **Publication Quality**: Optimised for academic papers and presentations
 - **Consistent Styling**: Professional color scheme and formatting
 
 **Usage**:
@@ -151,6 +151,7 @@ python results_figures.py
 - `Figure_4_2_Query_Performance.png`
 - `Figure_4_3_Storage_Compression.png`
 - `Figure_4_4_Scalability_Trends.png`
+
 
 
 
