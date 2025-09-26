@@ -218,7 +218,7 @@ def create_all_chapter4_figures():
     print("- Figure_4_2_Query_Performance.png") 
     print("- Figure_4_3_Storage_Compression.png")
     print("- Figure_4_4_Scalability_Trends.png")
-    print("\nFigures are optimized for LaTeX and print output")
-
+ 
 if __name__ == "__main__":
     create_all_chapter4_figures()
+
