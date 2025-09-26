@@ -436,4 +436,4 @@ if __name__ == "__main__":
     results = framework.run_foxbench_tsdb_benchmark()
     
     print("\n FoxBench-TSDB Extension completed successfully!")
-    print(" Your thesis now includes a comprehensive FoxBench adaptation for TSDB benchmarking!")
+  
