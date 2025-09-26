@@ -15,30 +15,6 @@ The code package generates all datasets, benchmark results, and visualisations p
 - Python 3.8 or higher
 - Required packages: `pandas`, `numpy`, `matplotlib`, `seaborn`, `scipy`
 
-#### Quick Setup
-```bash
-# Install dependencies
-pip install pandas numpy matplotlib seaborn scipy
-
-# Verify installation
-python -c "import pandas, numpy, matplotlib, seaborn, scipy; print('All dependencies installed successfully')"
-```
-
-#### Directory Structure
-```
-TSDB/
-├── aerospace_data_generator.py      # Data generation
-├── results_figures.py               # Figure generation
-├── foxbench_execution.py            # FoxBench framework
-├── README.md                        # This file
-├── synthetic_data/                  # Generated datasets
-│   ├── aerospace_synthetic_daily.csv
-│   ├── aerospace_synthetic_weekly.csv
-│   ├── aerospace_synthetic_monthly.csv
-│   └── metadata_*.json
-└── Figure_4_*.png                   # Generated figures
-```
-
 ### Core Components
 
 #### 1. `aerospace_data_generator.py` - Synthetic Data Generation
@@ -151,6 +127,7 @@ python results_figures.py
 - `Figure_4_2_Query_Performance.png`
 - `Figure_4_3_Storage_Compression.png`
 - `Figure_4_4_Scalability_Trends.png`
+
 
 
 
